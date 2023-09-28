@@ -1,7 +1,7 @@
 package com.co.booking.stepsdefinitions;
 
 import com.co.booking.models.RegisterData;
-import com.co.booking.questions.navegationsQuestions;
+import com.co.booking.questions.navegationsQuestionsAtraccionesTuristicas;
 import com.co.booking.tasks.Register;
 import cucumber.api.PendingException;
 import cucumber.api.java.en.Given;
@@ -18,6 +18,6 @@ import org.hamcrest.Matchers;
 public class servicepagenavigationbarStepdefinitionAtracciones {
     @Then("^user will then see on the screen the page title Compara y reserva vuelos fácilmente Atracciones turisticas$")
     public void userWillThenSeeOnTheScreenThePageTitleComparaYReservaVuelosFácilmenteAtraccionesTuristicas() {
-        OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(navegationsQuestions.verification(), Matchers.is(true)));
+        OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(navegationsQuestionsAtraccionesTuristicas.verification(), Matchers.is(true)));
     }
 }

@@ -7,7 +7,6 @@ import net.serenitybdd.screenplay.questions.Visibility;
 
 public class navegationsQuestions implements Question<Boolean> {
 
-
     @Override
     public Boolean answeredBy(Actor actor) {
         try {
@@ -15,7 +14,7 @@ public class navegationsQuestions implements Question<Boolean> {
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
-        return Visibility.of(servicePageNavigationBarComponent.BTN_VUELOS).viewedBy(actor).asBoolean();
+            return  Visibility.of(servicePageNavigationBarComponent.TXT_H1_VUELOS).viewedBy(actor).asBoolean();
     }
 
     public static navegationsQuestions verification() {

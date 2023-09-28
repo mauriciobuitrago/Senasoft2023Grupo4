@@ -24,7 +24,7 @@ public class servicePageNavigationBar implements Task{
         }
         actor.attemptsTo(Click.on(servicePageNavigationBarComponent.POP_BAD));
         try {
-            Thread.sleep(10000);
+            Thread.sleep(1000);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }

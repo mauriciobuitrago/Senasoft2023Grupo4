@@ -1,6 +1,6 @@
 Feature: utility navigation bar
 
-  Scenario: It will be validated that the anchor element "Booking.com" redirects to the home page.
+  Scenario: It will be validated that the anchor element "Booking.com" redirects to the Vuelos page.
     Given the user is on the home page of the application
     When  the user clicks on a navigation button "Vuelos"
     Then user will then see on the screen the page title Compara y reserva vuelos fácilmente Vuelos
