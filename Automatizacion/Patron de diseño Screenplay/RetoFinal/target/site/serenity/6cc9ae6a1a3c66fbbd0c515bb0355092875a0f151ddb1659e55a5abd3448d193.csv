@@ -1,4 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"utility navigation bar","It will be validated that the anchor element ""Booking.com"" redirects to the Vuelos page.","SUCCESS","2023-09-28T09:16:31.6846192-05:00[America/Bogota]","0.0","23.55"
-"utility navigation bar","It will be validated that the anchor element ""Booking.com"" redirects to the Alquileres de coche page.","SUCCESS","2023-09-28T09:16:55.249512-05:00[America/Bogota]","0.0","21.89"
-"utility navigation bar","It will be validated that the anchor element ""Booking.com"" redirects to the Atracciones turisticas page.","SUCCESS","2023-09-28T09:17:17.1461189-05:00[America/Bogota]","0.0","24.0"

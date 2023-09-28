@@ -22,7 +22,7 @@ public class Hooks {
     @After
     public void finished()
     {
-        hisBrowser.quit();
+        hisBrowser.close();
     }
 }
 

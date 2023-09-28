@@ -13,11 +13,18 @@ public class Register implements Task {
     @Override
     public <T extends Actor> void performAs(T actor) {
 
-        actor.attemptsTo(Enter.theValue("correor@examples.com").into(RegisterPage.TXT_USERNAME));
+        actor.attemptsTo(Enter.theValue("correor@examples.c").into(RegisterPage.TXT_USERNAME));
         actor.attemptsTo(Click.on(RegisterPage.BTN_ContinuarConEmail));
+
+        try {
+            Thread.sleep(4000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
     }
 
     public static Register enter() {
+
         return Tasks.instrumented(Register.class);
     }
 }
