@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="2" name="login" skipped="0" tests="2" time="5.54" timestamp="2023-09-27 11:38:44"><testcase name="Login Sucessfull"><failure message="&#10;Expected: is &lt;false&gt;&#10;     but: was &lt;true&gt;" type="java.lang.AssertionError">
+Expected: is &lt;false&gt;
+     but: was &lt;true&gt;</failure><system-err>
+     Expected: is &lt;false&gt;
+     but: was &lt;true&gt;&#13;
+     com.co.booking.stepsdefinitions.RegisterStepDefinition.heCouldSeeTheName(RegisterStepDefinition.java:43)&#13;
+     ✽.he could see the name(src/test/resources/features/login.feature:8)&#13;
+</system-err></testcase></testsuite>
