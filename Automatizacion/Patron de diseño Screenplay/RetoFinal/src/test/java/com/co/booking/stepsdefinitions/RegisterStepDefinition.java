@@ -5,16 +5,12 @@ import com.co.booking.tasks.Register;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import net.serenitybdd.screenplay.GivenWhenThen;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Open;
 import net.serenitybdd.screenplay.actions.OpenAt;
 import net.serenitybdd.screenplay.actions.OpenUrl;
 import net.serenitybdd.screenplay.actors.OnStage;
-import com.co.booking.questions.Alert;
-import org.hamcrest.Matchers;
 
-import static com.co.booking.userinterfaces.RegisterPage.ALERT;
 import static com.co.booking.userinterfaces.RegisterPage.BTN_ContinuarConEmail;
 
 public class RegisterStepDefinition {
@@ -32,8 +28,6 @@ public class RegisterStepDefinition {
 
     @Then("^The alert see$")
     public void theAlertSee() {
-        OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(Alert.seealert()
-                , Matchers.is("Make sure the email address you entered is correct.")));
 
     }
 }

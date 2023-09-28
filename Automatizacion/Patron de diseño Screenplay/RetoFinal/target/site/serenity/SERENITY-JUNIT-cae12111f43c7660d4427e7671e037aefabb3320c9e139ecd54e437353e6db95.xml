@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="3" name="utility navigation bar" skipped="0" tests="3" time="104.75" timestamp="2023-09-28 08:25:25"><testcase name="It will be validated that the anchor element &quot;Booking.com&quot; redirects to the home page."><failure message="&#10;Expected: is &lt;true&gt;&#10;     but: was null" type="java.lang.AssertionError">
+Expected: is &lt;true&gt;
+     but: was null</failure><system-err>
+Expected: is &lt;true&gt;
+     but: was null&#13;
+com.co.booking.stepsdefinitions.servicepagenavigationbarStepdefinitionAlquiler.userWillThenSeeOnTheScreenThePageTitleComparaYReservaVuelosFácilmente(servicepagenavigationbarStepdefinitionAlquiler.java:21)&#13;
+✽.user will then see on the screen the page title Compara y reserva vuelos fácilmente "Vuelos"(src/test/resources/features/servicepagenavigationbar.feature:6)&#13;
+</system-err></testcase><testcase name="It will be validated that the anchor element &quot;Booking.com&quot; redirects to the Alquileres de coche page."><failure message="&#10;Expected: is &lt;true&gt;&#10;     but: was null" type="java.lang.AssertionError">
+Expected: is &lt;true&gt;
+     but: was null</failure><system-err>
+Expected: is &lt;true&gt;
+     but: was null&#13;
+com.co.booking.stepsdefinitions.servicepagenavigationbarStepdefinitionAlquiler.userWillThenSeeOnTheScreenThePageTitleComparaYReservaVuelosFácilmente(servicepagenavigationbarStepdefinitionAlquiler.java:21)&#13;
+✽.user will then see on the screen the page title Compara y reserva vuelos fácilmente "Alquiler de coches"(src/test/resources/features/servicepagenavigationbar.feature:11)&#13;
+</system-err></testcase><testcase name="It will be validated that the anchor element &quot;Booking.com&quot; redirects to the Atracciones turisticas page."><failure message="&#10;Expected: is &lt;true&gt;&#10;     but: was null" type="java.lang.AssertionError">
+Expected: is &lt;true&gt;
+     but: was null</failure><system-err>
+Expected: is &lt;true&gt;
+     but: was null&#13;
+com.co.booking.stepsdefinitions.servicepagenavigationbarStepdefinitionAlquiler.userWillThenSeeOnTheScreenThePageTitleComparaYReservaVuelosFácilmente(servicepagenavigationbarStepdefinitionAlquiler.java:21)&#13;
+✽.user will then see on the screen the page title Compara y reserva vuelos fácilmente "Atracciones turisticas"(src/test/resources/features/servicepagenavigationbar.feature:16)&#13;
+</system-err></testcase></testsuite>
